@@ -79,3 +79,17 @@ disqusShortname = "your_disqus_shortname"
     plainIdAnchors = true
     extensions = []
     extensionmask = []
+
+# Sets the menu items in the navigation bar
+# Identifier prepends a Font Awesome icon to the menu item
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  identifier = "fa fa-home"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  identifier = "fa fa-id-card-o"
+  weight = 2
