@@ -90,12 +90,12 @@ disqusShortname = "your_disqus_shortname"
 # This appears at the top of the sidebar above params.intro.header.
 # A width of less than 100px is recommended from a design perspective.
 [params.intro.pic]
-  src       = "http://res.cloudinary.com/exp-ai/image/upload/v1526905736/logo2.png"
+  src       = "http://res.cloudinary.com/exp-ai/image/upload/v1526905736/logo.png"
   # Sets Image to be a cirlce
   circle    = false
   # Sets Image to be Future Imperfect's hexagon
-  imperfect = true
-  width     = ""
+  imperfect = false
+  width     = "4em"
   alt       = "Exp-AI"
 
 
