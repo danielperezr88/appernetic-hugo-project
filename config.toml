@@ -94,7 +94,7 @@ disqusShortname = "your_disqus_shortname"
 [params.intro.pic]
   src       = "http://res.cloudinary.com/exp-ai/image/upload/v1526905736/logo.png"
   # Sets Image to be a cirlce
-  circle    = false
+  circle    = true
   # Sets Image to be Future Imperfect's hexagon
   imperfect = true
   width     = ""
