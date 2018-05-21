@@ -108,7 +108,7 @@ disqusShortname = "your_disqus_shortname"
     # files by adding the value, "default".
     # customCSS            = ["default", "/path/to/file"]
     # customJS             = ["default", "/path/to/file"]
-    customCSS            = ["default"]
+    customCSS            = ["default", "/static/css/custom.css"]
     customJS             = ["default"]
 
     # options for highlight.js (version, additional languages, and theme)
