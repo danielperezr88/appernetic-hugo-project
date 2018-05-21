@@ -36,8 +36,8 @@ disqusShortname = "your_disqus_shortname"
     topic = "topics"
 
 [author]
-    name = "yourname"
-    email = "yourname@example.com"
+    name = "exp-ai"
+    email = "info@exp-ai.com"
 
 #
 # All parameters below here are optional and can be mixed and matched.
