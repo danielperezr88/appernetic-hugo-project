@@ -1,16 +1,16 @@
 +++
-type = "itemized"
 author = "George Jetson"
-date = "2017-06-22"
-title = "Fancy App 4"
+categories = [""]
+date = "2017-06-22T00:00:00Z"
 description = "Application for doing cool things again."
 featured = ""
-featuredpath = ""
 featuredalt = ""
-categories = [""]
-linktitle = ""
+featuredpath = ""
 format = "iOS"
 link = "#"
-+++
+linktitle = ""
+title = "Fancy App 4"
+type = "itemized"
 
++++
 ## App 4

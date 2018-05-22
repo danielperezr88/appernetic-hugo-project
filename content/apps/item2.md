@@ -1,16 +1,16 @@
 +++
-type = "itemized"
 author = "George Jetson"
-date = "2017-06-22"
-title = "Fancy App 2"
+categories = [""]
+date = "2017-06-22T00:00:00Z"
 description = "Application for doing cool things."
 featured = ""
-featuredpath = ""
 featuredalt = ""
-categories = [""]
-linktitle = ""
+featuredpath = ""
 format = "Golang"
 link = "#"
-+++
+linktitle = ""
+title = "Fancy App 2"
+type = "itemized"
 
++++
 ## App 2
