@@ -173,7 +173,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #2ebaae !important;
+			*color: #2ebaae !important;
 		}
 
 			a:hover:before {
