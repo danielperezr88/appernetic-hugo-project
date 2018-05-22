@@ -1,27 +1,16 @@
-language: go
+# Install the apt prerequisites
+addons:
+  apt:
+    packages:
+      - python-pygments
 
-go:
-    - master
-
-branches:
-  only:
-    master
-
+# Clean and don't fail
 install:
-    - go get github.com/spf13/hugo
-    
-#before_script:
-#    - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
-#    - go get -u -v github.com/spf13/hugo
-#    - npm install -g firebase-tools
-#    - wget https://github.com/spf13/hugo/releases/download/v0.40.3/hugo_0.40.3_Linux-64bit.tar.gz -O /tmp/hugo.tar.gz
-#    - tar -zxvf /tmp/hugo.tar.gz
-#    - export PATH=$PATH:$PWD/hugo_0.19_linux_amd64/
+  - rm -rf public || exit 0
 
+# Build the website
 script:
-#    - git submodule update --init
-    - hugo -t hugo-future-imperfect
-#    - hugo_0.19_linux_amd64 -t hugo-future-imperfect
+  - binaries/hugo -t hugo-future-imperfect
 
 after_success:
     - firebase deploy --token=${FIREBASE_TOKEN}
