@@ -64,5 +64,6 @@ fields:
   hidden: false
   default: ''
 pages:
+- apps/chatbot.md
 - apps/industry-4.0.md
 - apps/healthcare.md
