@@ -65,4 +65,3 @@ fields:
   default: ''
 pages:
 - apps/healthcare.md
-- apps/item4.md
