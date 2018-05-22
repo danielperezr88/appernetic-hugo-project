@@ -1,7 +1,7 @@
 +++
 author = "Hugo author"
 categories = ["Hugo"]
-date = "2014-04-02"
+date = "2014-04-02T00:00:00Z"
 description = ""
 featured = "pic01.jpg"
 featuredalt = "Pic 1"
@@ -11,7 +11,6 @@ title = "Getting Started with Hugo"
 type = "post"
 
 +++
-
 ## Step 1. Install Hugo
 
 Go to [hugo releases](https://github.com/spf13/hugo/releases) and download the

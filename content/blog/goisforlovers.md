@@ -1,7 +1,7 @@
 +++
 author = "Unknown Author"
 categories = ["Go"]
-date = "2014-04-02"
+date = "2014-04-02T00:00:00Z"
 description = ""
 featured = "pic02.jpg"
 featuredalt = "Pic 2"
@@ -11,7 +11,6 @@ title = "(Hu)go Template Primer"
 type = "post"
 
 +++
-
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
