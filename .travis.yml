@@ -10,6 +10,7 @@ install:
 
 # Build the website
 script:
+  - chmod +x binaries/hugo
   - binaries/hugo -t hugo-future-imperfect
 
 after_success:
