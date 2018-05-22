@@ -64,8 +64,5 @@ fields:
   hidden: false
   default: ''
 pages:
-- apps/test-app.md
-- apps/item2.md
 - apps/healthcare.md
 - apps/item4.md
-- apps/item3.md
