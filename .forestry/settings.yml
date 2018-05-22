@@ -7,8 +7,8 @@ sections:
   blog:
     default_front_matter_template: blog
 upload_dir: static
-public_path: ''
-front_matter_path: ''
-use_front_matter_path: false
+public_path: "/static"
+front_matter_path: "/static"
+use_front_matter_path: true
 file_template: ":filename:"
 version: 0.38.1
