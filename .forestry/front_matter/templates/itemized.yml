@@ -64,4 +64,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- apps/industry-4.0.md
 - apps/healthcare.md
