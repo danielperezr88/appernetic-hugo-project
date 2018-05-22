@@ -15,30 +15,30 @@ title = "exp-ai"
 email = "info@exp-ai.com"
 name = "exp-ai"
 [[menu.main]]
-identifier = "fa fa-envelope-o"
-name = "Contact"
-url = "/contact/"
-weight = 5
-[[menu.main]]
-identifier = "fa fa-id-card-o"
-name = "About"
-url = "/about/"
-weight = 4
-[[menu.main]]
-identifier = "fa fa-newspaper-o"
-name = "Blog"
-url = "/blog/"
-weight = 3
+identifier = "fa fa-home"
+name = "Home"
+url = "/"
+weight = 1
 [[menu.main]]
 identifier = "fa fa-mobile"
 name = "Apps"
 url = "/apps/"
 weight = 2
 [[menu.main]]
-identifier = "fa fa-home"
-name = "Home"
-url = "/"
-weight = 1
+identifier = "fa fa-newspaper-o"
+name = "Blog"
+url = "/blog/"
+weight = 3
+[[menu.main]]
+identifier = "fa fa-id-card-o"
+name = "About"
+url = "/about/"
+weight = 4
+[[menu.main]]
+identifier = "fa fa-envelope-o"
+name = "Contact"
+url = "/contact/"
+weight = 5
 [params]
 categoriesbycount = true
 customcss = ["default", "/css/custom.css"]
