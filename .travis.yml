@@ -13,5 +13,9 @@ script:
   - chmod +x binaries/hugo
   - binaries/hugo -t hugo-future-imperfect
 
-after_success:
-    - firebase deploy --token=${FIREBASE_TOKEN}
+deploy:
+  provider: firebase
+  token: ${FIREBASE_TOKEN}
+  
+#after_success:
+#    - firebase deploy --token=${FIREBASE_TOKEN}
