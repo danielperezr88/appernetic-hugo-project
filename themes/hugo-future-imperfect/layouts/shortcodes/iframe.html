@@ -64,7 +64,8 @@
     {{ $id  := $.Scratch.Get "id" }}
     {{ $name  := $.Scratch.Get "name" }}
     {{ $default  := $.Scratch.Get "default" }}
-	{{ $wrapper := print( "iframe-wrapper-" index (seq 100 | shuffle) 0 ) }}
+	{{ $rand := index (seq 100 | shuffle) 0 }}
+	{{ $wrapper := print ( "iframe-wrapper-" $rand ) }}
 	
 	<div id="{{ $wrapper }}" width="100%" height="auto" ></div>
 	<script>
