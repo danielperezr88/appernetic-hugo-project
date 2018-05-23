@@ -12,6 +12,8 @@ install:
 script:
   - chmod +x binaries/hugo
   - binaries/hugo -t hugo-future-imperfect
+  
+before_deploy: "ls -al"
 
 deploy:
   provider: firebase
